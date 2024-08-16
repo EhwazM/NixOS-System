@@ -102,10 +102,12 @@
     grim
     grim
     heroic
+    hyprpaper
     jq
     julia
     kdePackages.ark
     kdePackages.dolphin
+    kdePackages.kservice
     kdePackages.okular
     kdePackages.qtstyleplugin-kvantum        
     kdePackages.qtsvg # Dolphin icons
