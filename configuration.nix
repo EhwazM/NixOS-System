@@ -106,7 +106,8 @@
     julia
     kdePackages.ark
     kdePackages.dolphin
-    kdePackages.okular        
+    kdePackages.okular
+    kdePackages.qtstyleplugin-kvantum        
     kdePackages.qtsvg # Dolphin icons
     kdePackages.qtwayland
     kitty
