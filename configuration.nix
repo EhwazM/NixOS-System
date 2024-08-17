@@ -142,6 +142,8 @@
     xdg-desktop-portal-gtk
     xdg-user-dirs
     xdg-utils
+    xorg.libX11
+    xorg.xorgproto
     zip
  ];
 

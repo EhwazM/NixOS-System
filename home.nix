@@ -1,6 +1,10 @@
 { config, pkgs, ... }:
 
 {
+
+    imports = [
+          ./modules/user/zsh/zsh.nix
+    ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "ehwazm";
@@ -70,20 +74,6 @@
   home.sessionVariables = {
     # EDITOR = "emacs";
   };
-
-    programs.zsh = {
-        enableCompletion = true;
-        enable = true;
-        autosuggestion.enable = true;
-        syntaxHighlighting.enable = true;
-        shellAliases = {
-	        nv = "nvim";
-        };
-        oh-my-zsh = {
-            enable = true;
-            theme = "robbyrussell";
-        };
-    };
 
     services.cliphist = {
         enable = true;
